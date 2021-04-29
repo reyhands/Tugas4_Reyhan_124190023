@@ -22,26 +22,13 @@ public class MainActivity extends AppCompatActivity {
     private Fragment fragment;
     private FragmentManager fragmentManager;
 
-    private RecyclerView Game;
-    private ArrayList<GameModel> listGame = new ArrayList<>();
 
-
-    private void showRecyclerList() {
-        Game.setLayoutManager(new LinearLayoutManager(this));
-        GameAdapter gameAdapter = new GameAdapter(this);
-        gameAdapter.setGameModels(listGame);
-        Game.setAdapter(gameAdapter);
-    }
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
-
 
         bottomNavigation = (BottomNavigationView) findViewById(R.id.navigation_frame);
         bottomNavigation.inflateMenu(R.menu.bottom_navigation_items);

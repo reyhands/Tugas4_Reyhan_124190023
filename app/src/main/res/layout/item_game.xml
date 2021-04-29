@@ -36,24 +36,24 @@
         android:layout_gravity="right"
    />
 
-    <Button
-        android:id="@+id/infogame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Info"
-        android:layout_marginLeft="230dp"
-        android:layout_marginTop="60dp"
-        >
-    </Button>
+        <Button
+            android:id="@+id/infogame"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text=""
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="60dp"
+            >
+        </Button>
 
-    <Button
-        android:id="@+id/buygame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Buy"
-        android:layout_marginLeft="230dp"
-        android:layout_marginTop="110dp"
-        >
-    </Button>
+      <Button
+            android:id="@+id/buygame"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text=""
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="110dp"
+            />
+
 
 </androidx.cardview.widget.CardView>
